@@ -1,7 +1,29 @@
 {
     "name": "devcomp-portal",
-    "version": "0.1.0",
-    "license": "GPL",
+    "version": "0.1.0",    
+    "label": "DeveloperCompanion Portal System",
+    "description": "DeveloperCompanion Portal System",
+    "homepage": "https://github.com/devcomp/portal",
+    "author": "Christoph Dorn (http://www.christophdorn.com/) <christoph@christophdorn.com>",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/devcomp/portal.git"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "Christoph Dorn",
+            "email": "christoph@christophdorn.com",
+            "web": "http://www.christophdorn.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPLv3",
+            "url": "http://www.opensource.org/licenses/GPL-3.0"
+        }
+    ],
     "dependencies": {
         "connect": "1.x",
         "sourcemint-platform-nodejs": "0.x"
