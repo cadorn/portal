@@ -1,0 +1,10 @@
+{
+    "name": "devcomp-portal-examples-HelloWorld",
+    "version": "0.1.0",
+    "private": true,
+    "license": "GPL",
+    "main": "./server.js",
+    "devDependencies": {
+        "devcomp-portal": "0.x"
+    }
+}

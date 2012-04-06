@@ -1,0 +1,12 @@
+{
+    "name": "devcomp-portal",
+    "version": "0.1.0",
+    "license": "GPL",
+    "dependencies": {
+        "connect": "1.x",
+        "sourcemint-platform-nodejs": "0.x"
+    },
+    "devDependencies": {
+        "less": "1.x"
+    }
+}
