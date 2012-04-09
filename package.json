@@ -26,9 +26,32 @@
     ],
     "dependencies": {
         "connect": "1.x",
-        "sourcemint-platform-nodejs": "0.x"
+        "sourcemint-platform-nodejs": "0.x",
+        "architect": "0.0.x",
+        "socket.io": "0.9.x",
+        "socket.io-client": "0.9.x",
+        "ql.io-engine": "0.5.x",
+        "winston": "0.5.x",
+        "mappings": "0.1.x"
     },
     "devDependencies": {
         "less": "1.x"
+    },
+    "mappings": {
+        "ui-bootstrap": ["zip", "https://github.com/twitter/bootstrap/zipball/master"],
+        "ui-underscore": ["zip", "https://github.com/documentcloud/underscore/zipball/master"],
+        "ui-backbone": ["zip", "https://github.com/documentcloud/backbone/zipball/master"],
+        "ql-io": ["zip", "https://github.com/ql-io/ql.io/zipball/master"],
+        "ui-jquery": ["url", "http://code.jquery.com/jquery-1.7.2.min.js"]
+    },
+    "devMappings": {
+        "ui-bootstrap": ["git", "https://github.com/twitter/bootstrap.git"],
+        "ui-underscore": ["git", "https://github.com/documentcloud/underscore.git"],
+        "ui-backbone": ["git", "https://github.com/documentcloud/backbone.git"],
+        "ql-io": ["git", "https://github.com/ql-io/ql.io.git"],
+        "ui-jquery": ["url", "http://code.jquery.com/jquery-1.7.2.js"]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/mappings/scripts/postpackageinstall.js"
     }
 }

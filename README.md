@@ -30,5 +30,13 @@ Examples
 Uses
 ====
 
-  * http://twitter.github.com/bootstrap/
-  * http://ql.io/
+  * https://github.com/c9/architect/ (MIT)
+  * https://github.com/sourcemint/loader-js/ (MIT and MPL)
+  * http://www.senchalabs.org/connect/ (MIT)
+  * http://socket.io/ (MIT)
+  * http://twitter.github.com/bootstrap/ (Apache v2)
+  * http://jquery.com/ (MIT, BSD, and GPL)
+  * http://documentcloud.github.com/underscore/ (MIT)
+  * http://documentcloud.github.com/backbone/ (MIT)
+  * http://ql.io/ (Apache v2)
+  * https://github.com/flatiron/winston (MIT)

@@ -4,7 +4,10 @@
     "private": true,
     "license": "GPL",
     "main": "./server.js",
-    "devDependencies": {
+    "dependencies": {
         "devcomp-portal": "0.x"
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/devcomp-portal/node_modules/mappings/scripts/postpackageinstall.js"
     }
 }
